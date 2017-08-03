@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Webpage with style</title>
+		
+		<meta charset="UTF-8" />
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<style type="text/css">
+			.red {
+				color:red;
+			}
+			
+			.large {
+				font-size: 200%;
+			}
+			
+			#green {
+				color:green;
+			}
+			
+			.underline {
+			
+				text-decoration: underline;
+			}
+			
+			#first-section {
+				color: blue;
+				background-color: #08088A;
+				width: 200px;
+				float: left;
+			}
+			
+			#second-section {
+				background-color: yellow;
+				width: 200px;
+				float: right;
+			
+			}
+			
+			.clear-float {
+				clear: both;
+			}
+		
+		</style>
+	</head>
+	<body>
+
+		<div id="first-section">	
+			<p>This is my sentence</p>
+			
+			<p>Wow css, much good</p>
+		</div>
+
+		<div id="second-section">
+			<h1 class="red">Css is cool</h1>
+
+			<p id="green" class="large">More text. <span class="underline">And this text is underlined.</span></p>
+		</div>
+		
+		<div class="clear-float"></div>
+		<p>This paragraph is not floated</p>
+	</body>
+</html>
