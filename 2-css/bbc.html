@@ -22,6 +22,7 @@
 	body {
 		margin: 0;
 		padding: 0;
+		font-family: Helvetica, Arial, sans-serif;
 	}
 	
 	#bottombar {
@@ -39,15 +40,67 @@
 	}
 	
 	#signin-image {
-		margin: 10px 15px;
+		margin: 8px 15px;
 		width: 25px;
+		float: left;
 	}
 	
-	.topbar-font{
-		font-family: arial;
+	#signin-text {
+		position: relative;
+		top: 11px;
 		font-weight: bold;
+		font-size: 13px;
+		padding-right: 50px;
+	}
+	
+	.topbar-menu {
+		float: left;
+		font-weight: bold;
+		font-size: 13px;
+		padding: 11px 15px 0px 15px;
+		height: 29px;
+	}
+	
+
+	#wigglyline {
+		float: left;
+		height: 40px;
+	}
+	
+	#bell {
+		float: left;
+		height: 25px;
+		margin: 9px 6px;
+	}
+	
+	#bell-div {
+		float: left;
+	}
+	
+	#arrow {
+		width: 16px;
+		margin-left: 20px;
+	}
+	
+	#search-box {
+		float: left;
+		background-color: #E4E4E4;
+		font-weight: bold;
+		font-size: 13px;
+		padding: 5px;
+		margin: 6px 0px 0px 5px;
+		border: 0px solid;
+	}
+	
+	#search-icon {
+		float: left;
+		height: 15px;
+		background-color: #E4E4E4;
+		padding: 5px;
+		margin: 6px 0px 0px 0px;
 	}
 
+	
 </style>
 </head>
 
@@ -57,8 +110,47 @@
 			<a href="https://www.bbc.co.uk" target="_blank"><img id="logo" src="images/bbc-logo.png"></a>	
 			
 			<div id="signin-div" class="topbar-section">
-				<img id="signin-image" src="images/signinimage.png"><span class="topbar-font">Sign in</span>
+				<img id="signin-image" src="images/signinimage.png"><span id="signin-text">Sign in</span>
 			</div>
+			
+			<div id="bell-div">
+				<img id="wigglyline" src="images/wigglyline.png">
+				<img id="bell" src="images/bell.png">
+			</div>
+			
+			<div class="topbar-section topbar-menu">
+				News
+			</div>
+			
+			<div class="topbar-section topbar-menu">
+				Sport
+			</div>
+			
+			<div class="topbar-section topbar-menu">
+				Weather
+			</div>
+			
+			<div class="topbar-section topbar-menu">
+				iPlayer
+			</div>
+			
+			<div class="topbar-section topbar-menu">
+				TV
+			</div>
+			
+			<div class="topbar-section topbar-menu">
+				More
+				
+				<img id="arrow" src="images/arrow.png">
+			</div>
+			
+			<div class="topbar-section">
+				<input id="search-box" type="text" placeholder="Search" value="Search">
+				<input type="image" id="search-icon" src="images/search-icon.png"></a>
+			<div>
+			
+			
+			
 			<br>
 			<br>
 			<br>
@@ -66,13 +158,7 @@
 			<br>
 			<br>
 			<br>
-			<ul>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
+
 			
 		</div>
 
