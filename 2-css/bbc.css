@@ -388,14 +388,14 @@
 		
 	}
 	
-	#category-link a {
+	p a#category-link {
 	
 		text-decoration: none;
 		color: #a61b1b  !important;	
 		
 	}
 	
-	#category-link a:hover {
+	p a#category-link:hover {
 
 		text-decoration: none;
 		color: #a61b1b  !important;	
